@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mapButton"
+        android:icon="@drawable/ic_baseline_travel_explore_24"
+        android:iconTint="@color/white"
+        android:title="@string/map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/parksButton"
+        android:icon="@drawable/ic_baseline_mode_of_travel_24"
+        android:iconTint="@color/white"
+        android:title="@string/parks"
+        app:showAsAction="ifRoom" />
+</menu>
